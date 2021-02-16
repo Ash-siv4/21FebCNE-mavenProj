@@ -1,0 +1,4 @@
+20210216 14:56:28 INFO  [main] intermediate.Runner Runner.java28 - Hello World
+20210216 14:56:28 DEBUG [main] intermediate.Runner Runner.java29 - debugging
+20210216 14:56:28 ERROR [main] intermediate.Runner Runner.java30 - major error
+20210216 14:56:28 FATAL [main] intermediate.Runner Runner.java31 - fatal
