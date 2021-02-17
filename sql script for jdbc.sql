@@ -1,0 +1,18 @@
+DROP DATABASE dummy;
+
+CREATE DATABASE IF NOT EXISTS dummy;
+USE dummy;
+
+CREATE TABLE table1(
+ID INT NOT NULL AUTO_INCREMENT,
+field1 VARCHAR(50) NOT NULL,
+field2 VARCHAR(50) NOT NULL,
+PRIMARY KEY (ID));
+
+SELECT * FROM table1;
+
+DELETE FROM table1 WHERE ID=1;
+
+INSERT INTO table1(field1, field2) VALUES('hi','hi');
+
+UPDATE table1 SET field1='hi', field2='hi' WHERE ID=1;
