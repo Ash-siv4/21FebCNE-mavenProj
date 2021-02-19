@@ -1,9 +1,13 @@
 package com.qa.week2;
 
+import com.qa.endOfW2.Move;
+
 public class Runner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Move m;
 		
 		int[] arr = {0, 1, 2};
 
